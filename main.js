@@ -18,3 +18,6 @@ document.querySelector('#green').addEventListener('touchend', updateColor)
 
 // call the handler 
 updateColor() 
+
+//Event Listner
+document.querySelector('#PopUp').addEventListener('click', () => alert("hello!"))
